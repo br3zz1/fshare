@@ -1,2 +1,2 @@
-# fshare
-Simple file upload/share service + desktop app
+# FShare
+Simple file upload/share service
