@@ -1,0 +1,9 @@
+﻿@model FShare.Models.LoginModel
+
+<form asp-action="Login">
+    <h4>Login</h4>
+    <p>@ViewBag.Message</p>
+    <input asp-for="@Model.Username" placeholder="Username"/>
+    <input asp-for="@Model.Password" type="password" placeholder="Password" />
+    <button type="submit">Login</button>
+</form>
